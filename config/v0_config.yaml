@@ -1,0 +1,9 @@
+# config/v0_config.yaml
+env:
+  town: Town01
+  weather: ClearNoon
+agent:
+  algorithm: PPO
+  learning_rate: 0.0003
+  gamma: 0.99
+  timesteps: 500000
