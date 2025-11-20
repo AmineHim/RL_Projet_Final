@@ -3,6 +3,7 @@
 import unittest
 from envs.carla_env import CarlaEnv
 from rl_agents.v0_agent import AgentV0
+import numpy as np
 
 
 class TestAgent(unittest.TestCase):
