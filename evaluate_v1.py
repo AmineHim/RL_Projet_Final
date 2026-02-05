@@ -24,12 +24,12 @@ def evaluate_v1():
 
     try:
         model = DQN.load("models/agent_v1_dqn", env=env)
-        print("✅ Modèle V1 chargé.")
+        print("V1 chargé.")
     except:
-        print("❌ Modèle pas encore prêt.")
+        print("Erreur.")
         return
 
-    print("👀 Démo V1 : Regarde si elle double les voitures lentes !")
+    print("Démo V1")
     
     for episode in range(5):
         obs, info = env.reset()
