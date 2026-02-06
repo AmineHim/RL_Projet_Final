@@ -1,10 +1,10 @@
-# 🚗 Projet RL : Voiture Autonome
+# Projet RL : Voiture Autonome
 
 Ce projet implémente un agent de conduite autonome utilisant l'apprentissage par renforcement (Reinforcement Learning) dans un environnement de trafic dense simulé.
 
 **Auteurs :** Amine, Zakaria, Wajih, Thomas.
 
-## 🛠 Installation
+## Installation
 
 Avant de lancer le projet, assurez-vous d'avoir Python installé et installez les librairies nécessaires :
 
@@ -13,7 +13,7 @@ pip install gymnasium highway-env stable-baselines3 numpy shimmy
 
 ```
 
-## 🚀 Comment lancer le projet
+## Comment lancer le projet
 
 Le projet est divisé en deux versions principales.
 
@@ -57,7 +57,7 @@ python evaluate_v1.py
 
 
 
-## 📂 Structure des fichiers
+## Structure des fichiers
 
 * `version_v0.py` : Code complet pour la V0 (Entraînement et Test via PPO).
 * `train_v1.py` : Script d'entraînement pour la V1 (DQN).
@@ -66,3 +66,4 @@ python evaluate_v1.py
         train()
 
 ```
+
